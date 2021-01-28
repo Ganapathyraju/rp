@@ -1,0 +1,58 @@
+/*****************Tag selectors**************/
+body {
+  background: linear-gradient(#FFE227, #FC5185, #F5F5F5, #64dfdf, #f5f4f4, #ff577f);
+}
+
+h1 {
+  color: #532e1c;
+  font-size: 50px;
+  font-style: italic;
+}
+
+h2{
+  font-size: 25px;
+  color: darkgreen;
+}
+
+h3 {
+  font-size: 25px;
+  color: #351f39;
+}
+
+ul {
+  font-size: 20px;
+}
+
+ol {
+  font-size: 20px;
+}
+
+p {
+  font-size: 21.5px;
+}
+
+img {
+  background: linear-gradient(#bbf1fa, #FC5185);
+}
+
+img:hover {
+  background: gold;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 3px;
+  border-color: BLACK;
+  width: 70%;
+}
+
+/*****************class selectors**************/
+.circular {
+  border-radius: 80px;
+}
+
+/*****************ID selectors**************/
+#heading {
+  color: #21209c;
+}
